@@ -12,7 +12,6 @@ const connectDB = async()=>{
        return connection;
    } catch (error) {
     console.log("Error",error)
-    console.log(error)
    }
 }
 
